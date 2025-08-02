@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  background: linear-gradient(0deg, #f9fafb 0%, #d2d6db 100%);
 }
 
 * {
@@ -28,4 +29,34 @@ body {
 .credits a {
   color: #000;
   font-weight: bold;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box-container {
+  padding: 24px;
+  background: #fff;
+  width: 340px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.name {
+  color: #171717;
+  font-weight: 600;
+}
+
+.username {
+  color: #525252;
 }
